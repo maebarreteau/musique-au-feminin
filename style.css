@@ -7,7 +7,7 @@
 body {
     font-family: "Neucha", cursive;
     background-color: #C5D6A1;
-    min-height: 200vh;
+    overflow: hidden;
 }
 
 .titre {
@@ -24,7 +24,12 @@ body {
   position: fixed;
   top: 250px;          
   right: 0;       
-  height: 100vh;  
+  height: 100vh; 
+  transition: transform 0.3 ease; 
+}
+
+.camescope:hover {
+  transform: scale(1.05);
 }
 
 .container {
@@ -53,12 +58,39 @@ body {
 
 .jade {
   position: absolute;
-  top: 500px;
-  right: 400px;
+  top: 0px;
+  right: 135px;
   height: 100vh;
   transition: transform 0.3s ease; 
 }
 
 .jade:hover {
   transform: scale(1.05)
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cassette {
+  position: relative;
+  top: -340px;
+  right: -10px;
+  height: 100vh;
+}
+
+.cassette2 {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  height: 100vh;
+}
+
+.noeud {
+  position: absolute;
+  top: 300px;
+  right: 370px;
+  height: 100vh;
 }
