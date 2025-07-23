@@ -1,0 +1,64 @@
+.neucha-regular {
+  font-family: "Neucha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    font-family: "Neucha", cursive;
+    background-color: #C5D6A1;
+    min-height: 200vh;
+}
+
+.titre {
+    font-size: 50px;
+    text-align: center;
+}
+
+.sous-titre {
+  font-size:75px;
+  text-align: center;
+}
+
+.camescope {
+  position: fixed;
+  top: 250px;          
+  right: 0;       
+  height: 100vh;  
+}
+
+.container {
+  position: relative;
+}
+
+.theodora {
+  transition: transform 0.3s ease;  
+}
+
+.theodora:hover {
+  transform: scale(1.05);  
+}
+
+.mandyspie {
+  position: absolute;
+  top: 0px;
+  right: 400px;
+  height: 100vh;
+  transition: transform 0.3s ease; 
+}
+
+.mandyspie:hover {
+  transform: scale(1.05)
+}
+
+.jade {
+  position: absolute;
+  top: 500px;
+  right: 400px;
+  height: 100vh;
+  transition: transform 0.3s ease; 
+}
+
+.jade:hover {
+  transform: scale(1.05)
+}
