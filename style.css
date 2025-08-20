@@ -22,10 +22,11 @@ body {
 
 .camescope {
   position: fixed;
-  top: 250px;          
+  top: 300px;          
   right: 0;       
   height: 100vh; 
-  transition: transform 0.3 ease; 
+  transition: transform 0.3 ease;
+  z-index: 1; 
 }
 
 .camescope:hover {
@@ -37,17 +38,21 @@ body {
 }
 
 .theodora {
-  transition: transform 0.3s ease;  
+  transition: transform 0.3s ease;
+    position: absolute;
+  top: 0px;
+  height: 100vh;
 }
 
 .theodora:hover {
   transform: scale(1.05);  
+  
 }
 
 .mandyspie {
   position: absolute;
   top: 0px;
-  right: 400px;
+  left: 350px;
   height: 100vh;
   transition: transform 0.3s ease; 
 }
@@ -59,7 +64,7 @@ body {
 .jade {
   position: absolute;
   top: 0px;
-  right: 135px;
+  left: 700px;
   height: 100vh;
   transition: transform 0.3s ease; 
 }
