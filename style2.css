@@ -1,0 +1,31 @@
+.neucha-regular {
+  font-family: "Neucha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    font-family: "Neucha", cursive;
+    background-color: #C5D6A1;
+    overflow: hidden;
+}
+
+.titre {
+    font-size: 50px;
+    text-align: center;
+}
+
+.sous-titre {
+  font-size:75px;
+  text-align: center;
+}
+
+.container {
+  display: block;
+  height: 100%;
+}
+
+.zine-container {
+    display: flex;
+    justify-content: space-between;
+}
